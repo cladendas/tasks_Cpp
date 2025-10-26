@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.10)
+project(TEST)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(simple_uptr simple_uptr.cpp)
+add_executable(binary_search binary_search.cpp)
+add_executable(threads threads.cpp)
+add_executable(buffer buffer.cpp)
+add_executable(ringBuffer ringBuffer.cpp)
+add_executable(sfinae sfinae.cpp)
+add_executable(matrix matrix.cpp)
+add_executable(file file.cpp)
+add_executable(tasks_0 tasks_0.cpp)
